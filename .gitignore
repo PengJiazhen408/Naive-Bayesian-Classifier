@@ -1,0 +1,4 @@
+*.png
+*.pkl
+__pycache__/
+predict_data/result.csv
