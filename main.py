@@ -17,7 +17,7 @@ def metrics_test():
     for i, c in enumerate(classes):
         print("%d: %s" % (i, c), end='\t')
     print('\n')
-    print(metrics.classification_report(y_test, p_test, target_names=classes))
+    print(metrics.classification_report(y_test, p_test))
 
     # 输出错误
     errors = []
