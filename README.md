@@ -1,6 +1,6 @@
 # 朴素贝叶斯意图分类器
 
-博客中有详细的代码介绍：https://www.cnblogs.com/kitten-t/p/15009700.html#index_2
+博客中有详细的代码介绍：https://www.cnblogs.com/kitten-t/p/15009700.html
 
 ## 分类流程
 
