@@ -6,6 +6,7 @@ from termcolor import colored
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle
+import pandas as pd
 
 data_dir = 'data'
 
@@ -16,7 +17,7 @@ def metrics_test():
     for i, c in enumerate(classes):
         print("%d: %s" % (i, c), end='\t')
     print('\n')
-    print(metrics.classification_report(y_test, p_test))
+    print(metrics.classification_report(y_test, p_test, target_names=classes))
 
     # 输出错误
     errors = []

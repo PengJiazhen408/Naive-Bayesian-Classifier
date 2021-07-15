@@ -25,6 +25,7 @@ if __name__ == '__main__':
     items = list(word_count.items())
     items.sort(key=lambda x: x[1], reverse=True)
 
+    # vocab中添加的单字
     single = ['吃', '喝', '药', '能', '治', '啥', '病', '查', '测', '检', '验', '酒', '奶', '糖']
     with open('data/vocab.txt', 'w', encoding='utf-8') as f:
         for item in items:
